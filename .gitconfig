@@ -1,0 +1,14 @@
+[user]
+  name = ###
+  email = ###
+[core]
+  editor = subl
+  excludesfile = ~/.gitignore
+[push]
+  default = simple
+[log]
+  date = rfc
+[alias]
+  graph = log --graph --decorate --stat --date=iso --all
+  wdiff = diff --word-diff
+  mindiff = diff -w --word-diff-regex=. --color-words -U0
